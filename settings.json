@@ -1,0 +1,188 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.options": {},
+  "tailwindCSS.emmetCompletions": true,
+  "cSpell.userWords": [
+    "animejs",
+    "Authed",
+    "clsx",
+    "colour",
+    "iconfont",
+    "immer",
+    "pino",
+    "supabase",
+    "superjson",
+    "tailwindcss",
+    "titleize",
+    "trpc",
+    "unnormalize"
+  ],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "eslint.codeActionsOnSave.rules": [
+    "source.fixAll.eslint",
+    "source.organizeImports"
+  ],
+  "eslint.validate": ["javascript"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "javascript": true,
+    "typescript": true
+  },
+  "github.copilot.advanced": {
+    "inlineSuggestCount": 3,
+    "indentationMode": {
+      "python": false,
+      "javascript": false,
+      "javascriptreact": true,
+      "jsx": true,
+      "typescript": true,
+      "typescriptreact": true,
+      "go": false,
+      "ruby": false,
+      "*": true
+    }
+  },
+  "editor.inlineSuggest.enabled": true,
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "vsintellicode.features.python.dataScience": "enabled",
+  "vsintellicode.features.python.naturalLanguage": "enabled",
+  "vsintellicode.features.python.unity": "enabled",
+  "vsintellicode.features.python.visualStudio": "enabled",
+  "vsintellicode.features.python.azure": "enabled",
+  "javascript.format.enable": true,
+  "javascript.validate.enable": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
+  "vsintellicode.modelDownloadPath": "",
+  "npm.packageManager": "pnpm",
+  "editor.inlayHints.enabled": "off",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.bracketPairs": false,
+  "terminal.integrated.cursorBlinking": true,
+  "inlineFold.unfoldOnLineSelect": true,
+  "editor.guides.indentation": false,
+  "workbench.colorTheme": "Black",
+  "filefocus.useGlobalStorage": true,
+  "projectManager.git.baseFolders": [
+    "C:\\Users\\User\\Documents\\GitHub\\rcsrc-canada"
+  ],
+  "terminal.integrated.copyOnSelection": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "terminal.integrated.env.windows": {},
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // "prettier"
+  "prettier.singleAttributePerLine": true,
+  "prettier.useTabs": false,
+  "prettier.arrowParens": "always",
+  "prettier.jsxSingleQuote": true,
+  "prettier.enable": true,
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "always",
+  "prettier.configPath": ".prettierrc",
+
+  "vscode-color-picker.languages": ["python", "javascript", "typescript"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src",
+    "@lib": "${workspaceRoot}/src/lib",
+    "@ui": "${workspaceRoot}/src/components/primitives",
+    "@util": "${workspaceRoot}/src/utils"
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "better-comments.highlightPlainText": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "[NOTE]:",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "TODO:",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "window.zoomLevel": 0.65,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.indentSize": "tabSize"
+}
